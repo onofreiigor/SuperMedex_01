@@ -8,3 +8,13 @@ C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\bin\Debug\EntityFra
 C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\obj\Debug\MedexDbModel.csproj.CoreCompileInputs.cache
 C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\obj\Debug\MedexDbModel.dll
 C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\obj\Debug\MedexDbModel.pdb
+E:\Other\Super\SuperMedex_01\MedexDbModel\bin\Debug\MedexDbModel.dll.config
+E:\Other\Super\SuperMedex_01\MedexDbModel\bin\Debug\MedexDbModel.dll
+E:\Other\Super\SuperMedex_01\MedexDbModel\bin\Debug\MedexDbModel.pdb
+E:\Other\Super\SuperMedex_01\MedexDbModel\bin\Debug\EntityFramework.dll
+E:\Other\Super\SuperMedex_01\MedexDbModel\bin\Debug\EntityFramework.SqlServer.dll
+E:\Other\Super\SuperMedex_01\MedexDbModel\bin\Debug\EntityFramework.xml
+E:\Other\Super\SuperMedex_01\MedexDbModel\bin\Debug\EntityFramework.SqlServer.xml
+E:\Other\Super\SuperMedex_01\MedexDbModel\obj\Debug\MedexDbModel.csproj.CoreCompileInputs.cache
+E:\Other\Super\SuperMedex_01\MedexDbModel\obj\Debug\MedexDbModel.dll
+E:\Other\Super\SuperMedex_01\MedexDbModel\obj\Debug\MedexDbModel.pdb

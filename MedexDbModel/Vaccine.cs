@@ -11,7 +11,8 @@ namespace MedexDbModel
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class Vaccine
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,7 +22,10 @@ namespace MedexDbModel
         }
     
         public int VaccineID { get; set; }
+        [Required(ErrorMessage ="Scrie scrie")]
+        [MinLength(3, ErrorMessage ="Prea mic!")]
         public string Description { get; set; }
+        [Required(ErrorMessage ="Type necesar")]
         public int TypeID { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

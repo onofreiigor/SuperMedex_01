@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\MedexDbModel.edmx'. 
+﻿// T4 code generation is enabled for model 'E:\Other\Super\SuperMedex_01\MedexDbModel\MedexDbModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
