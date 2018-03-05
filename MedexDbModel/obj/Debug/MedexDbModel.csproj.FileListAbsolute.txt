@@ -1,0 +1,10 @@
+C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\bin\Debug\MedexDbModel.dll.config
+C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\bin\Debug\MedexDbModel.dll
+C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\bin\Debug\MedexDbModel.pdb
+C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\bin\Debug\EntityFramework.dll
+C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\bin\Debug\EntityFramework.xml
+C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\obj\Debug\MedexDbModel.csproj.CoreCompileInputs.cache
+C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\obj\Debug\MedexDbModel.dll
+C:\Users\onofr\source\repos\Medex_gentilella_v1\MedexDbModel\obj\Debug\MedexDbModel.pdb

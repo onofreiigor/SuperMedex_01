@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SuperMedex_01Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Patients">
+    <Key>
+      <PropertyRef Name="PatientID" />
+    </Key>
+    <Property Name="PatientID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nchar" MaxLength="20" Nullable="false" />
+    <Property Name="LastName" Type="nchar" MaxLength="20" Nullable="false" />
+    <Property Name="BirthDate" Type="date" Nullable="false" />
+    <Property Name="IDNP" Type="bigint" Nullable="false" />
+    <Property Name="Gender" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PatientVaccinations">
+    <Key>
+      <PropertyRef Name="VaccinationID" />
+    </Key>
+    <Property Name="VaccinationID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PatientID" Type="int" Nullable="false" />
+    <Property Name="VaccinationDate" Type="datetime" Nullable="false" />
+    <Property Name="VaccineID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vaccines">
+    <Key>
+      <PropertyRef Name="VaccineID" />
+    </Key>
+    <Property Name="VaccineID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Description" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="TypeID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VaccineTypes">
+    <Key>
+      <PropertyRef Name="TypeID" />
+    </Key>
+    <Property Name="TypeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Description" Type="nchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_PatientVaccinations_Patients">
+    <End Role="Patients" Type="Self.Patients" Multiplicity="1" />
+    <End Role="PatientVaccinations" Type="Self.PatientVaccinations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patients">
+        <PropertyRef Name="PatientID" />
+      </Principal>
+      <Dependent Role="PatientVaccinations">
+        <PropertyRef Name="PatientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PatientVaccinations_Vaccines">
+    <End Role="Vaccines" Type="Self.Vaccines" Multiplicity="1" />
+    <End Role="PatientVaccinations" Type="Self.PatientVaccinations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vaccines">
+        <PropertyRef Name="VaccineID" />
+      </Principal>
+      <Dependent Role="PatientVaccinations">
+        <PropertyRef Name="VaccineID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SuperMedex_01ModelStoreContainer">
+    <EntitySet Name="Patients" EntityType="Self.Patients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PatientVaccinations" EntityType="Self.PatientVaccinations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vaccines" EntityType="Self.Vaccines" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VaccineTypes" EntityType="Self.VaccineTypes" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_PatientVaccinations_Patients" Association="Self.FK_PatientVaccinations_Patients">
+      <End Role="Patients" EntitySet="Patients" />
+      <End Role="PatientVaccinations" EntitySet="PatientVaccinations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PatientVaccinations_Vaccines" Association="Self.FK_PatientVaccinations_Vaccines">
+      <End Role="Vaccines" EntitySet="Vaccines" />
+      <End Role="PatientVaccinations" EntitySet="PatientVaccinations" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
