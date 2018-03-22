@@ -23,15 +23,10 @@ namespace MedexDbModel
         }
     
         public int PatientID { get; set; }
-        [Required]
         public string FirstName { get; set; }
-        [Required]
         public string LastName { get; set; }
-        [Required]
         public System.DateTime BirthDate { get; set; }
-        [Required]
         public long IDNP { get; set; }
-        [Required]
         public bool Gender { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

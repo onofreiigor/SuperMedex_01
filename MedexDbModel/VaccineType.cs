@@ -13,7 +13,7 @@ namespace MedexDbModel
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
-    [MetadataType(typeof(VaccineTypeMetadata))]
+    [MetadataType(typeof(PatientMetadata))]
     public partial class VaccineType
     {
         public int TypeID { get; set; }
