@@ -96,3 +96,4 @@ E:\Other\Super\SuperMedex_01\Medex_gentilella_v1\obj\Debug\Medex_gentilella_v1.c
 E:\Other\Super\SuperMedex_01\Medex_gentilella_v1\obj\Debug\Medex_gentilella_v1.csproj.CoreCompileInputs.cache
 E:\Other\Super\SuperMedex_01\Medex_gentilella_v1\obj\Debug\Medex_gentilella_v1.dll
 E:\Other\Super\SuperMedex_01\Medex_gentilella_v1\obj\Debug\Medex_gentilella_v1.pdb
+E:\Other\Super\SuperMedex_01\Medex_gentilella_v1\obj\Debug\Medex_gentilella_v1.csproj.CopyComplete

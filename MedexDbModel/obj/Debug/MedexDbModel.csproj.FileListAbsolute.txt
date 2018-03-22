@@ -18,3 +18,5 @@ E:\Other\Super\SuperMedex_01\MedexDbModel\bin\Debug\EntityFramework.SqlServer.xm
 E:\Other\Super\SuperMedex_01\MedexDbModel\obj\Debug\MedexDbModel.csproj.CoreCompileInputs.cache
 E:\Other\Super\SuperMedex_01\MedexDbModel\obj\Debug\MedexDbModel.dll
 E:\Other\Super\SuperMedex_01\MedexDbModel\obj\Debug\MedexDbModel.pdb
+E:\Other\Super\SuperMedex_01\MedexDbModel\obj\Debug\MedexDbModel.csprojResolveAssemblyReference.cache
+E:\Other\Super\SuperMedex_01\MedexDbModel\obj\Debug\MedexDbModel.csproj.CopyComplete

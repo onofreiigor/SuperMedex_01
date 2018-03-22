@@ -64,6 +64,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MedexDbModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Metadata.cs" />
     <Compile Include="Patient.cs">
       <DependentUpon>MedexDbModel.tt</DependentUpon>
     </Compile>
